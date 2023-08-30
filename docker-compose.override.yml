@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  webapi.cleanarchitecture.template:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+    volumes:
+      - ./.containers/logs:/logs

@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Nnaemeka Valentine Eziamaka",
+  "classifications": [ "Web", "ASP.NET" ],
+  "name": "My ASP.NET Core Web Api Clean Architecture Template",
+  "identity": "webapi.cleanarchitecture",
+  "shortName": "webapicleanarchitecture",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

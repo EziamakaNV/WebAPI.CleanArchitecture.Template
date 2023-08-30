@@ -1,0 +1,17 @@
+<Project>
+	<PropertyGroup>
+		<AnalysisLevel>latest</AnalysisLevel>
+		<AnalysisMode>All</AnalysisMode>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+		<CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference
+		Include="SonarAnalyzer.CSharp"
+		Version="9.8.0.76515"
+		PrivateAssets="all"
+		Condition="$(MSBuildProjectExtension) == '.csproj'"
+		/>
+	</ItemGroup>
+</Project>
